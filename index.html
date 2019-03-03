@@ -1,0 +1,689 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="format-detection" content="telephone=no">
+<title>Shingle Creek</title>
+<!-- SET: FAVICON -->
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+<link rel="stylesheet" type="text/css" href="css/bootstrap-select.min.css"> 
+<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css"> 
+<link href="css/animate.css" rel="stylesheet"> 
+<link rel="stylesheet" type="text/css" href="css/font-awesome.css">   
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<!-- SET: SCRIPTS -->
+<script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
+    
+    
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/owl.carousel.js"></script>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/bootstrap-select.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.0.47/jquery.fancybox.min.js"></script> 
+    
+<script type="text/javascript">
+
+	 $(document).ready(function(e) {
+         
+			// Sticky header
+			$(window).scroll(function(){
+				if ($(this).scrollTop() > 0) {
+				 //$('.avail').addClass('sticky');
+				 $('body').addClass('story');
+				} else {
+				 //$('.avail').removeClass('sticky');
+				 $('body').removeClass('story');
+				}
+			  });
+         
+		 
+         
+         // Smooth scroll 
+			$('nav ul li a,.footer_in_nav ul li a').bind('click',function(event){
+			var $anchor = $(this);
+			$('html, body').stop().animate({
+			scrollTop: $($anchor.attr('href')).offset().top
+			}, 1800,'easeInOutExpo');
+			event.preventDefault();
+			});
+			 
+		  $('.scroller').bind('click',function(event){
+                    var $anchor = $(this);
+                    
+                    $('html, body').stop().animate({
+                        scrollTop: $($anchor.attr('href')).offset().top
+                    }, 1500,'easeInOutExpo');
+                    event.preventDefault();
+                }); 
+         
+         
+         
+		});
+
+</script>
+
+<script type="text/javascript"> 
+$('.selectpicker').selectpicker({
+  				style: 'btn-info',
+ 					 size: 4
+
+
+				});    
+$(document).ready(function() { 
+$('nav > ul').clone().appendTo('.side_bar');
+	$('#nav-icon').click(function(){
+		$('body').toggleClass('open');
+	}); 
+    $('.side_bar ul li.gal').click(function(){
+		$('.side_bar ul li.gal ul').slideToggle();
+        $('.side_bar ul li.gal span').toggleClass('active');
+	});
+    
+
+    });
+</script>
+<script type="text/javascript">
+		$(document).ready(function() {
+            
+			
+	
+			<!-- owl-carousel slider -->
+			$('.cele_in .owl-carousel').owlCarousel({
+				loop:true,
+				margin:10,
+				autoplay:true,
+				dots:true,
+				nav: false,
+				responsiveClass:true,
+				responsive:{
+				0:{
+					items:1,
+				},
+				413:{
+					items:1,
+				},
+				600:{
+					items:1,
+				},
+				767:{
+					items:2,
+				},
+				1000:{
+					items:2,
+					nav: false,
+					loop:true
+				}
+			}
+		})
+        
+            
+      });
+	</script>       
+</head>
+<body>
+<div class="side_bar"></div>
+   
+<!--wrapper start-->
+<!-- single crek blk start here -->
+<!--
+<div class="single_creek_blk">
+    <div class="single_creek_blk_in">
+       <div class="logo">
+           <a href="#"><img src="images/side-logo.png" width="224" height="61" alt="side-logo"></a>
+       </div>
+        <ul>
+            <li><a href="#">SPECIAL OFFER</a></li>
+            <li><a href="#">DINING</a></li>
+            <li><a href="#">GLOF</a></li>
+            <li><a href="#">SPA</a></li>
+            <li><a href="#">LEISURE</a></li>
+            <li><a href="#">EXPLORE THE HOTEL</a></li>
+            <li><a href="#">CAREERS</a></li>
+            <li><a href="#">HOLIDAYS</a></li>
+            <li><a href="#">PRESS</a></li>
+            <li><a href="#">LOCATION & TRANSPORTATION</a></li>
+        </ul>
+        
+    </div>
+</div>
+-->
+<!-- single crek blk ends here -->
+<div class="wrapper">
+
+<div class="main">
+<div class="banner">
+    <div  class="banner_in">
+      <img src="images/banner.png" alt="sl2">                    
+    </div>
+</div>
+<header >
+    	<div class="header_in">
+         <div class="header_top">
+        	<div class="container">
+            	<div class="row">
+                	<div class="header_top_in">
+                    	<ul>
+                        	<li><a href="#">CHECK AVAILABILITY</a></li>
+                            <li>RESERVATIONS: <a href="#">(866) 996.6338</a></li> 
+                            <li class="lst"><div class="menu"><div id="nav-icon"><span></span><span></span><span></span></div></div></li>                          
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="header_down">
+  			<div class="container">
+                <div class="row">
+                    <div class="header_blk">
+                    <div class="logo"><a href="#"><img src="images/logo.png" width="255" height="69" alt="img"></a></div>
+                        
+                        <nav>
+                        
+                        <ul class="clearfix">
+                            <li class="first"><a href="#">ABOUT US</a></li>
+                          	<li><a href="#">ACCOMMODATIONS</a></li>
+                            <li><a href="#">MEETINGS</a></li>
+                            <li><a href="#">WEDDINGS</a></li>
+                            <li><a href="#">GALLERY</a></li>
+                        </ul>
+                        <div class="clearfix"></div>
+                    </nav>
+                    <div class="clearfix"></div>    
+                    </div>
+    			</div>
+			</div>
+        </div>    
+        </div>
+    </header>  
+<section class="avail">
+    <div class="container">
+        <div class="row">
+            <div class="avail_in">
+                
+                
+                <div class="contact">
+                	<span><i class="fa fa-calendar" aria-hidden="true"></i></span>
+                    <ul>
+                       
+                                
+                                <li class="dp">
+                                <input type="text" id="text4" name="text" value="CHECK IN" onClick="if(this.value=='CHECK IN')
+                                {this.value=''}" onBlur="if(this.value==''){this.value='CHECK IN'}" class="text datepicker" readonly>
+                                </li>
+                                
+                                <li class="dp">
+                                <input type="text" id="text5" name="text" value="CHECK OUT" onClick="if(this.value=='CHECK OUT')
+                                {this.value=''}" onBlur="if(this.value==''){this.value='CHECK OUT'}" class="text datepicker1" readonly>
+                                </li>
+                                <li class="sub_btn"><input type="button" class="button" value="CHECK AVAILABILITY"></li> 
+                                 
+                        	
+                    </ul>
+                    <div class="clearfix"></div>
+                    
+                </div>
+            </div>            
+        </div>        
+    </div>    
+</section>          
+</div>
+
+<section class="rosen">
+    <div class="container">
+        <div class="row">
+            <div class="rosen_in">                
+                    <div class="rosen_lft col-sm-8 col-xs-12">
+                    	 <h3>WE ARE <span>ROSEN SHINGLE CREEK.</span></h3>
+                         <figure><img src="images/rosen_img1.jpg" width="732" height="246" alt="rosen1"></figure>
+                         <p>Rosen Shingle Creek is nestled on a 255-acre site along Shingle Creek just off Universal Boulevard, east of the Orange County Convention Center North/South expansion and just 10 minutes away from the Orlando International Airport. Our ideal location is a short distance to a variety of Orlando’s best attractions, restaurants, shopping and entertainment venues.</p>
+                    </div>
+                    <div class="rosen_rgt col-sm-4 col-xs-12">
+                    	<div class="rosen_rgt_in">
+                        <figure><img src="images/rosen_img2.jpg" width="350" height="191" alt="rosen2"></figure>
+                        <div class="our">
+                        <p>Our 1,501 guest rooms offer luxurious first-class settings that capture the hotel environment. Capitalizing on Rosen Shingle Creek’s elevation, every single room offers a stunning view of the golf course and the area’s incomparable setting.</p>
+                        <a href="#">MORE ABOUT US</a>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>                
+            </div>            
+        </div>        
+    </div>    
+</section>
+
+<section class="offer">
+    <div class="container">
+        <div class="row">
+            <div class="offer_in">
+            		<div class="offer_lft col-sm-4 col-xs-12">
+                    	<div class="rosen_rgt_in">
+                        <figure><img src="images/rosen_img2.jpg" width="350" height="191" alt="rosen2"></figure>
+                        <p>Our 1,501 guest rooms offer luxurious first-class settings that capture the hotel environment. Capitalizing on Rosen Shingle Creek’s elevation, every single room offers a stunning view of the golf course and the area’s incomparable setting.</p>
+                        <a href="#">MORE ABOUT US</a>
+                        </div>
+                    </div>                
+                    <div class="offer_rgt col-sm-8 col-xs-12">
+                    	 <h3>EXPERIENCE AN <span>EXCLUSIVE OFFER.</span></h3>
+                         <div class="cele">
+                               <div class="cele_in">                      
+                                    <ul class="owl-carousel">
+                                      <li class="items">
+                                        <div class="cele_blk"> 
+                                             
+                                                <figure><img src="images/offer_1.jpg" width="344" height="269" alt="offer1"></figure>
+                                                <div class="cele_cnt"> 
+                                                <h4>MAKE OUR MOM’S SMILE!</h4>
+                                                <p>Show mothers, grandmothers, and great-grandmothers how much you care.</p>
+                                              </div> 
+                                              <a href="#">VIEW OFFER</a>  
+                                                                             
+                                         </div>
+                                      </li>
+                                      <li class="items">
+                                        <div class="cele_blk">
+                                                <figure><img src="images/offer_2.jpg" width="344" height="269" alt="offer1"></figure> 
+                                                <div class="cele_cnt"> 
+                                                <h4>FATHER’S DAY SPECIAL: WHO’S YOUR DADDY-O?</h4>
+                                                <p>Celebrate Father’s Day in luxury with this exclusive package. Book two nights for $299 plus tax.</p>
+                                                
+                                                </div>
+                                                <a href="#">VIEW OFFER</a>
+                                        </div>
+                                      </li>
+                                      <li class="items">
+                                        <div class="cele_blk"> 
+                                             	<figure><img src="images/offer_1.jpg" width="344" height="269" alt="offer1"></figure>
+                                                <div class="cele_cnt"> 
+                                                <h4>MAKE OUR MOM’S SMILE!</h4>
+                                                <p>Show mothers, grandmothers, and great-grandmothers how much you care.</p>
+                                             </div> 
+                                             <a href="#">VIEW OFFER</a>                                  
+                                         </div>
+                                      </li>
+                                      <li class="items">
+                                        <div class="cele_blk">
+                                            	<figure><img src="images/offer_2.jpg" width="344" height="269" alt="offer1"></figure>
+                                                <div class="cele_cnt">  
+                                                <h4>FATHER’S DAY SPECIAL: WHO’S YOUR DADDY-O?</h4>
+                                                <p>Celebrate Father’s Day in luxury with this exclusive package. Book two nights for $299 plus tax.</p>
+                                               </div>
+                                               <a href="#">VIEW OFFER</a>
+                                        </div>
+                                      </li>                                                    
+                                   </ul>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="clear"></div>
+                        </div>
+                    </div>                    
+                    <div class="clearfix"></div>                
+            </div>            
+        </div>        
+    </div>    
+</section>
+  
+
+<section class="harris">
+    <div class="container">
+        <div class="row">
+            <div class="harris_in">                
+                    <div class="harris_lft col-sm-9 col-xs-12">
+                    	 <h3>IN HIS WORDS, <span>HARRIS ROSEN</span>.</h3>
+                        
+                        <div class="harris_blk">
+                        	<div class="harris_blk_lft">
+                        		<img src="images/video.png" width="537" height="433" alt="video">
+                        	</div>
+                            <div class="harris_blk_rgt">
+                            	 <div class="harris_blk_rgt_in">
+                        		<h4>CURRENT VIDEO TOPIC</h4>
+                                <p>Harris Rosen, President & COO of Rosen Hotels & Resorts,on giving back and achieving goals</p>
+                                </div>
+								<a href="#"><p>WATCH<em>MORE VIDEOS</em></p><span><i class="fa fa-youtube-play" aria-hidden="true"></i></span><div class="clearfix"></div></a>
+                                
+                        	</div>
+                            <div class="clearfix"></div>
+                        </div>
+                        
+                    </div>
+                    <div class="clearfix"></div> 
+                    <p>Harris Rosen, President & COO</p>
+                    <div class="clearfix"></div>                
+            </div>            
+        </div>        
+    </div>    
+</section>
+
+
+<div class="plan col-lg-12">
+        <div class="plan_in">
+        <div class="plan_in_lft col-lg-8 col-md-8 col-sm-8 col-xs-12">
+            <a class="lft_img" href="#"><figure><img src="images/plan_lft.png" width="940" height="540" alt="lft_img"></figure></a>
+            <a class="lft_img1" href="#"><figure><img src="images/cs_run_banner_lft_img1.jpg" width="603" height="671" alt="lft_img"></figure></a>
+              <div class="plan_in_lft_txt">
+                <h4>ORLANDO EVENT<br>OR MEETING</h4>
+                <p>The event and meeting facilities at Rosen Shingle Creek combine cutting-edge technology with superior service – all within minutes of the Orlando International Airport and the Orange County Convention Center. </p>
+                <a href="#">MEETING</a> 
+               </div>
+               
+              <h2>START PLANNING YOUR...</h2> 
+        </div>
+        <div class="plan_in_rgt col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <a class="rt_img" href="#"><figure><img src="images/plan_rgt.png" width="880" height="661" alt="rgt_img"></figure></a>
+            <a class="rt_img1" href="#"><figure><img src="images/cs_run_banner_rt_img1.jpg" width="615" height="671" alt="rgt_img"> </figure></a>
+          <div class="plan_in_rgt_txt">
+              <h4>ROSEN SHINGLE CREEK<br> WEDDING</h4>
+              <p>We have the venue and expertise to make your Orlando wedding the unforgettable day you’ve been dreaming of.</p>	
+              <a class="cs_run_box2" href="#">WEDDING</a>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+       
+<div class="clearfix"></div>
+
+<section class="creek">
+<div class="creek_in">
+    <h3>THE ROSEN SHINGLE CREEK <span>EXPERIENCE</span>.</h3>
+                 
+    <ul>
+        <li>
+            <div class="creek_blk">
+                
+                    
+                    <img src="images/gal1.jpg" width="320" height="320" alt="gal1">
+                <div class="gal_cnt">
+                <div class="gal_cnt1">
+                 <div class="gal_cnt2">   
+                <h4>Harris Rosen<br><span>1 week ago</span></h4>
+                <p>Cras lobortis dictum elit eu cursus. Phasellus vitae congue odio, ultricies mollis magna. Phasellus sit amet facilisis odio. Nulla quis quam laoreet, faucibus odio ut, aliquet massa</p>
+                </div>
+                </div>    
+            </div>
+                  
+            </div>    
+        </li>
+        <li>
+            
+           
+            <div class="creek_blk">
+                <img src="images/gal2.jpg" width="320" height="320" alt="gal2">
+            <div class="gal_cnt">
+                <div class="gal_cnt1">
+                 <div class="gal_cnt2">   
+                <h4>Harris Rosen<br><span>1 week ago</span></h4>
+                <p>Cras lobortis dictum elit eu cursus. Phasellus vitae congue odio, ultricies mollis magna. Phasellus sit amet facilisis odio. Nulla quis quam laoreet, faucibus odio ut, aliquet massa</p>
+                </div>
+                </div>    
+            </div>
+               
+        </div>
+        </li>
+        <li>
+            <div class="creek_blk">
+                
+                <img src="images/gal3.jpg" width="320" height="320" alt="gal3">
+       		 <div class="gal_cnt">
+                <div class="gal_cnt1">
+                 <div class="gal_cnt2">   
+                <h4>Harris Rosen<br><span>1 week ago</span></h4>
+                <p>Cras lobortis dictum elit eu cursus. Phasellus vitae congue odio, ultricies mollis magna. Phasellus sit amet facilisis odio. Nulla quis quam laoreet, faucibus odio ut, aliquet massa</p>
+                </div>
+                </div>    
+            </div>
+               
+            </div>    
+        </li>
+        <li>
+            
+            <div class="creek_blk">
+                
+                <img src="images/gal4.jpg" width="320" height="320" alt="gal4">
+        	<div class="gal_cnt">
+                <div class="gal_cnt1">
+                 <div class="gal_cnt2">   
+                <h4>Harris Rosen<br><span>1 week ago</span></h4>
+                <p>Cras lobortis dictum elit eu cursus. Phasellus vitae congue odio, ultricies mollis magna. Phasellus sit amet facilisis odio. Nulla quis quam laoreet, faucibus odio ut, aliquet massa</p>
+                </div>
+                </div>    
+            </div>        
+            </div>    
+        </li>
+        <li>
+            <div class="creek_blk">
+                <img src="images/gal5.jpg" width="320" height="320" alt="gal5">
+        		<div class="gal_cnt">
+                <div class="gal_cnt1">
+                 <div class="gal_cnt2">   
+                <h4>Harris Rosen<br><span>1 week ago</span></h4>
+                <p>Cras lobortis dictum elit eu cursus. Phasellus vitae congue odio, ultricies mollis magna. Phasellus sit amet facilisis odio. Nulla quis quam laoreet, faucibus odio ut, aliquet massa</p>
+                </div>
+                </div>    
+            </div>
+            </div>    
+        </li>
+        
+        <li>
+            <div class="creek_blk">
+                <img src="images/gal6.jpg" width="320" height="320" alt="gal6">
+        		<div class="gal_cnt">
+                <div class="gal_cnt1">
+                 <div class="gal_cnt2">   
+                <h4>Harris Rosen<br><span>1 week ago</span></h4>
+                <p>Cras lobortis dictum elit eu cursus. Phasellus vitae congue odio, ultricies mollis magna. Phasellus sit amet facilisis odio. Nulla quis quam laoreet, faucibus odio ut, aliquet massa</p>
+                </div>
+                </div>    
+            </div>        
+            </div>    
+        </li>
+        <li>
+            <div class="creek_blk">
+                <img src="images/gal7.jpg" width="320" height="320" alt="gal6">
+        		<div class="gal_cnt">
+                <div class="gal_cnt1">
+                 <div class="gal_cnt2">   
+                <h4>Harris Rosen<br><span>1 week ago</span></h4>
+                <p>Cras lobortis dictum elit eu cursus. Phasellus vitae congue odio, ultricies mollis magna. Phasellus sit amet facilisis odio. Nulla quis quam laoreet, faucibus odio ut, aliquet massa</p>
+                </div>
+                </div>    
+            </div>        
+            </div>    
+        </li>
+        <li>
+            <div class="creek_blk">
+                <img src="images/gal8.jpg" width="320" height="320" alt="gal6">
+        		<div class="gal_cnt">
+                <div class="gal_cnt1">
+                 <div class="gal_cnt2">   
+                <h4>Harris Rosen<br><span>1 week ago</span></h4>
+                <p>Cras lobortis dictum elit eu cursus. Phasellus vitae congue odio, ultricies mollis magna. Phasellus sit amet facilisis odio. Nulla quis quam laoreet, faucibus odio ut, aliquet massa</p>
+                </div>
+                </div>    
+            </div>        
+            </div>    
+        </li>
+        <li>
+            <div class="creek_blk">
+                <img src="images/gal9.jpg" width="320" height="320" alt="gal6">
+        		<div class="gal_cnt">
+                <div class="gal_cnt1">
+                 <div class="gal_cnt2">   
+                <h4>Harris Rosen<br><span>1 week ago</span></h4>
+                <p>Cras lobortis dictum elit eu cursus. Phasellus vitae congue odio, ultricies mollis magna. Phasellus sit amet facilisis odio. Nulla quis quam laoreet, faucibus odio ut, aliquet massa</p>
+                </div>
+                </div>    
+            </div>        
+            </div>    
+        </li>
+        <li>
+            <div class="creek_blk">
+                <img src="images/gal10.jpg" width="320" height="320" alt="gal6">
+        		<div class="gal_cnt">
+                <div class="gal_cnt1">
+                 <div class="gal_cnt2">   
+                <h4>Harris Rosen<br><span>1 week ago</span></h4>
+                <p>Cras lobortis dictum elit eu cursus. Phasellus vitae congue odio, ultricies mollis magna. Phasellus sit amet facilisis odio. Nulla quis quam laoreet, faucibus odio ut, aliquet massa</p>
+                </div>
+                </div>    
+            </div>        
+            </div>    
+        </li>
+    </ul>
+    <div class="clearfix"></div>
+</div> 
+
+<div class="special">
+ <div class="special_in">
+	<ul>
+    	<li><a href="#">SPECIAL OFFERS</a></li>
+        <li><a href="#">DINING</a></li>
+        <li><a href="#">GOLF</a></li>
+        <li><a href="#">SPA</a></li>
+        <li><a href="#">LEISURE</a></li>
+        <li><a href="#">EXPLORE THE HOTEL</a></li>
+        <li><a href="#">CAREERS</a></li>
+        <li><a href="#">HOLIDAYS</a></li>
+        <li><a href="#">PRESS</a></li>
+        <li><a href="#">LOCATION & TRANSPORTATION</a></li>
+    </ul>
+    <div class="clearfix"></div>
+    </div>
+</div>    
+</section>         
+
+
+<footer>
+		<div class="footer_top">
+    	<div class="container">
+        	<div class="row">
+            	<div class="footer_top_in">                    
+                   	<div class="footer_top_lft">
+                    	<h3>SUBSCRIBE TO OUR <span>NEWSLETTER</span></h3>
+                        
+                        <div class="search">
+                      		<input type="text" class="text" value="Enter Email" onClick="if(this.value=='Enter Email'){this.value=''}" onBlur="if(this.value==''){this.value='Enter Email'}">
+                            <button type="button"  class="button1"></button>
+                      		<div class="clear"></div>                      
+                      	</div>
+
+                    </div>
+                    <div class="footer_top_mdl">
+                    	<h3>CONNECT WITH <span>ROSEN SHINGLE CREEK</span></h3>
+                    	<div class="social_links">
+                    	    <ul>
+                    	        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    	        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    	        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    	        <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                    	        <li><a href="#"><i class="fa fa-tripadvisor" aria-hidden="true"></i></a></li>
+                    	    </ul>
+                    	</div>
+                    </div> 
+                    <div class="footer_top_rgt">
+                    <div class="footer_top_rgt_in">
+                     <span><img src="images/life.png" width="156" height="78" alt="life"></span>     
+                    <ul>
+                        <li>
+                            <a href="#"><img src="images/irefer.png" width="91" height="34" alt="irefer">
+                            </a>
+                        </li>
+                        <li class="no_bor">
+                            <a href="#"><img src="images/noreport.png" width="85" height="59" alt="irefer">
+                            </a>
+                        </li>
+                    </ul>    
+                    </div>
+                    </div> 
+                    <div class="clearfix"></div>                   
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="footer_mdl">
+    	<div class="container">
+        	<div class="row">
+            	<div class="footer_mdl_in">
+                    <ul>
+                	<li><img src="images/daimond1.png" width="139" height="86" alt="diamond"></li>
+                	<li><img src="images/univers.png" width="96" height="87" alt="univers"></li>
+                    <li><img src="images/popular.png" width="97" height="95" alt="popular"></li>
+                    <li><img src="images/certified.png" width="97" height="73" alt="certified"></li>
+                    <li class="no_bor"><img src="images/trip.png" width="97" height="126" alt="trip"></li>
+                </ul> 
+                <div class="clearfix"></div>                  
+              </div>
+            </div>
+        </div>
+        </div>
+        <div class="foot_down">
+        	<p>© 2017 Rosen Shingle Creek, 9939 Universal Blvd., Orlando, Florida 32819 | (866) 996-9939 | Reservations (866) 996-6338</p>
+            <ul>
+            	<li><a href="#">TERMS OF USE</a></li>
+                <li class="no_bor"><a href="#">PRIVACY POLICY</a></li>
+            </ul>
+        </div>
+	</footer>
+
+<!--footer end-->	
+</div>
+ <a href="#top" id="back" class="scroller"><img src="images/back.png" width="50" height="50" alt="back to top"></a>    
+<!--wrapper end-->    
+<script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=fancyboxnet" id="_carbonads_js"></script>
+    
+<script type="text/javascript" src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>    
+<script type="text/javascript">
+		$(document).ready(function() {
+         $( ".datepicker" ).datepicker({
+             // showOn: "button",
+             // buttonImage: "images/date_picker.png",
+             // buttonImageOnly: true,
+             // buttonText: "Select date",
+             // beforeShow:function(textbox, instance){
+                    //$('.date_pic').append($('#ui-datepicker-div'));	
+               // }
+            });
+            
+      });
+	</script>
+<script type="text/javascript">
+		$(document).ready(function() {
+         $( ".datepicker1" ).datepicker({
+              //showOn: "button",
+              //buttonImage: "images/date_picker.png",
+             // buttonImageOnly: true,
+             // buttonText: "Select date",
+             // beforeShow:function(textbox, instance){
+                   // $('.date_pic1').append($('#ui-datepicker-div'));	
+               // }
+            });
+            
+      });
+	</script>    
+<script type="text/javascript" src="js/wow.min.js"></script>
+<script type="text/javascript">
+jQuery(document).ready(function () {
+    wow = new WOW(
+        {
+            animateClass: 'animated',
+            offset: 100,
+            mobile: true
+        }
+    );
+    wow.init();
+    
+    
+});
+    
+</script>
+
+</body>
+</html>

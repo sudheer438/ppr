@@ -1,0 +1,389 @@
+/*====================================== reset.css is here ========================================*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0;box-sizing: border-box;}
+table {	border-collapse:collapse; border-spacing:0;}
+fieldset,img { border:0; }
+address,caption,cite,code,dfn,em,strong,th,var {font-style:normal; font-weight:normal;}
+ol,ul { list-style:none;}
+caption,th {text-align:left;}
+h1,h2,h3,h4,h5,h6 {	font-size:100%;	font-weight:bold;}
+q:before,q:after {content:'';}
+abbr,acronym { border:0;}
+.clear{clear:both; font-size:1px;line-height:1px; display:block; height:0;}
+.clrflt{clear:both;}
+.last	{margin:0 !important;}
+.pad_last{padding:0 !important;}
+.no_bg {background:none !important;}
+.no_bor{border:none !important; }
+input { -webkit-appearance: none; -moz-appearance: none; -ms-appearance: none;-o-appearance: none; border-radius:0;}
+textarea { -webkit-appearance: none; -moz-appearance: none; -ms-appearance: none;-o-appearance: none;border-radius:0;}
+/**************************************************************************************/
+a											{color:#000; text-decoration:none; outline:0 none !important;}
+a:hover										{text-decoration:none;}
+h1											{font-size:24px;}
+h2											{font-size:22px;}
+h3											{font-size:18px;}
+h4											{font-size:16px;}
+h5											{font-size:14px;}
+h6											{font-size:12px;}
+.font{font-family: 'Lato', sans-serif; font-family: 'Roboto', sans-serif;}
+/*----------------------------------------------------------------------------------*/
+html{}
+body										{color:#b1b1b1; -webkit-text-size-adjust:100%; font-family: 'Open Sans', sans-serif; font-size:12px;}
+.flt_lt										{float:left; display:inline;}
+.flt_rt										{float:right; display:inline;}
+/* ------------------------layout-----------------------------------*/
+
+@font-face {
+    font-family: 'maven_problack';
+    src: url('../fonts/maven_black/mavenpro-black-webfont.woff2') format('woff2'),
+         url('../fonts/maven_black/mavenpro-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'maven_probold';
+    src: url('../fonts/maven_bold/mavenpro-bold-webfont.woff2') format('woff2'),
+         url('../fonts/maven_bold/mavenpro-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'maven_promedium';
+    src: url('../fonts/maven_medium/mavenpro-medium-webfont.woff2') format('woff2'),
+         url('../fonts/maven_medium/mavenpro-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'maven_proregular';
+    src: url('../fonts/maven_regular/mavenpro-regular-webfont.woff2') format('woff2'),
+         url('../fonts/maven_regular/mavenpro-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* -------------------- HEADER-SECTION --------------------------------*/
+
+/*------------- single creek blk start --------------*/
+.single_creek_blk                           {width: 280px; display: block; background: #3f451e;}
+.single_creek_blk_in                        {display: block; padding: 30px 25px;}
+.single_creek_blk_in .logo                  {display: block; padding: 0 0 30px;}
+.single_creek_blk_in .logo a                {display: inline-block;}
+.single_creek_blk_in .logo a img            {display: block; max-width: 100%; height: auto;}
+.single_creek_blk_in ul                     {display: block;}
+.single_creek_blk_in ul li                  {display: block; padding: 10px 0;}
+.single_creek_blk_in ul li a                {font-size: 14px; line-height: 16px; color: #eeeeee; padding: 0; display: inline-block; font-family:'maven_proregular'; font-weight: 700;}
+/*------------- single creek blk end --------------*/
+
+.wrapper									{margin:0 auto; width:100%;display: block;}
+.container									{width:1170px; margin:0 auto;}
+.main {margin: 0;padding: 0;position: relative;}
+.banner										{margin:0; padding:0; position:relative;}
+.banner_in										{margin:0; padding:0;}
+.banner_in > img								{width:100%; height:auto;}
+
+
+header										{position:absolute; left:0;top: 0; width:100%;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out; z-index:9999; background:transparent; padding:0px 0;}
+.header_in									{margin:0; padding:0;-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out; z-index:9999;position: relative;background:rgba(17, 17, 17, 0.73);width:100%;}
+.header_top{margin:0;padding:0;width:100%;background:#3f451e;}
+.header_top_in{margin:0;padding:0 0px;}
+.header_top_in ul										{margin:0; padding:11px 0 6px 0;float:right;display:inline-block;}
+.header_top_in ul li									{display:inline-block; padding:0px 24px; margin:0; float:left; text-align:center;position: relative;font-family: 'maven_proregular'; font-size:16px; line-height:18px; color:#ffffff;}
+.header_top_in ul li.lst{padding:0 0 0 10px;}
+.header_top_in ul li a									{font-family: 'maven_proregular'; font-size:16px; line-height:18px; color:#ffffff; padding:0 0 0px 0; margin:0; font-weight:normal;text-decoration:none !important;display: inline-block;}
+
+.header_down{margin:0;padding:0;width:100%;background:rgba(255, 255, 255, 0.8);}     
+.header_blk									{margin: 0;padding: 0 30px;position: relative;}
+.logo										{margin:12px 0 0 0; padding:0;float:left ;display: inline-block;}
+.logo a										{display:inline-block; padding:0; margin:0;}
+nav											{margin:0; padding:0px 0px 0px 8px; position:relative;float: right;display:inline-block}
+nav ul										{margin:0; padding:0;}
+nav ul li									{display:inline-block; padding:0; margin:0; float:left; text-align:center;position: relative;color:#ffffff;}
+nav ul li a									{font-family:'maven_promedium';font-size:16px; line-height:18px; color:#767a4c; padding:44px 15px 38px 15px; margin:0; font-weight:normal; text-decoration:none !important;display: inline-block;border-right:1px solid #fff;}
+nav ul li.first a							{border-left:1px solid #fff;}
+nav ul li.seco2								{text-align:right; margin:0 0 0 80px; padding:13px 0 0 0;}
+
+.sticky										{width:100%; position:fixed; left:0; top:0; z-index:9999; -webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;background:rgba(17, 17, 17, 0.73);padding:0px 0;}
+.sticky .avail								{padding:0px 0; -webkit-transition: all ease-in-out 0.3s;
+  -moz-transition: all ease-in-out 0.3s;-o-transition: all ease-in-out 0.3s;transition: all ease-in-out 0.3s;}
+.sticky .logo                               {width:200px;padding:0px 0 0 0; top:0px;}
+.sticky .logo a img                         {width:100%;height:auto;}
+.add .sticky								{width:100%; position:fixed; left:0; top:0; z-index:9999; -webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;  background:#3a3035; padding:20px 0;}
+.add .sticky .nav_in ul li a				{color:#FFF;}
+.add .sticky .nav_in ul li:hover, nav_in ul li.active{background: url(../images/nav-hvr.png) no-repeat center top;}
+.add .sticky .logo							{top:20px;}
+nav ul li ul {position: absolute;left:-11px;top:69px;width: 100%;background:rgba(17, 17, 17, 0.73);width:200px;display: none;}
+nav ul li ul li{margin: 0;padding:5px 0px 7px 13px;text-align: left;display: block;width: 100%;}
+nav ul li ul li a	{font-family: 'maven_promedium'; font-size:16px; line-height:18px; color:#ffffff; padding:0; margin:0; font-weight:normal; text-decoration:none !important;}
+nav ul li:hover ul{display: block;}
+
+
+/* -------------------- MAINCONTENT-SECTION --------------------------------*/
+.rosen                                      {margin: 0;padding: 0;width: 100%;display: block;position: relative;background:url(../images/rosen_bg.jpg) no-repeat;background-size:cover;}
+.rosen_in                                   {margin: 0;padding:0px 30px 0px 30px;width: 100%;display: block;}
+.rosen_lft                             {margin: 0;padding:50px 0 0 0;text-align:left;}
+.rosen_lft h3                                {margin:0 0 0px 0;padding:0 0 30px 0;font-family: 'maven_proregular';font-size:41px;line-height:50px;color:#666666;font-weight: normal;position: relative;}
+.rosen_lft h3 span                               {font-family: 'maven_problack';color:#3f451e;}
+.rosen_lft figure{margin:0;padding:0 0 31px 0;}
+.rosen_lft figure img{margin:0;padding:0;}
+.rosen_lft p                                {margin:0 0 0px 0;padding:0 0 17px 0;font-family: 'maven_promedium';font-size:16px;line-height:22px;color:#333333;font-weight: normal;position: relative;}
+.rosen_rgt                             {margin: 0;padding:0 0 0 20px;}
+.rosen_rgt_in                             {margin: 0;padding:0 0 115px 0px;background:#fff;}
+.rosen_rgt h3                                {margin:0 0 0px 0;padding:0 0 30px 0;font-family: 'maven_promedium';font-size:41px;line-height:50px;color:#666666;font-weight: normal;position: relative;}
+.rosen_rgt figure{margin:0;padding:0 0 34px 0;}
+.rosen_rgt figure img{margin:0;padding:0;}
+.rosen_rgt p                                {margin:0 0 30px 0;padding:0px 35px 17px 35px;font-family: 'maven_promedium';font-size:16px;line-height:22px;color:#333333;font-weight: normal;position: relative;}
+.rosen_rgt a                                {margin:0 auto;padding:20px 0 20px 0;width:75%;font-family: 'maven_promedium';font-size:18px;font-weight:100;color:#ffffff;line-height:20px;text-align:center;display: block;background:#767b4c;cursor:pointer;}
+
+
+
+
+
+.offer                                      {margin: 0;padding: 0;width: 100%;display: block;position: relative;}
+.offer_in                                   {margin: 0;padding:0px 30px 0px 30px;width: 100%;display: block;}
+.offer_lft                             {margin: 0;padding:0 20px 0 0;}
+.offer_lft_in                             {margin: 0;padding:0 0 115px 0px;background:#fff;}
+.offer_lft h3                                {margin:0 0 0px 0;padding:0 0 30px 0;font-family: 'maven_promedium';font-size:36px;line-height:50px;color:#666666;font-weight: normal;position: relative;}
+.offer_lft figure{margin:0;padding:0 0 34px 0;}
+.offer_lft figure img{margin:0;padding:0;}
+.offer_lft p                                {margin:0 0 30px 0;padding:0px 35px 17px 35px;font-family: 'maven_promedium';font-size:16px;line-height:22px;color:#333333;font-weight: normal;position: relative;}
+.offer_lft a                                {margin:0 auto;padding:20px 0 20px 0;width:75%;font-family: 'maven_promedium';font-size:18px;font-weight:100;color:#ffffff;line-height:20px;text-align:center;display: block;background:#767b4c;cursor:pointer;}
+
+.offer_rgt                             {margin: 0;padding:62px 0 0 10px;text-align:left;}
+.offer_rgt h3                                {margin:0 0 0px 0;padding:0 0 0px 0;font-family: 'maven_proregular';font-size:36px;line-height:50px;color:#666666;font-weight: normal;position: relative;}
+.offer_rgt h3 span                               {font-family: 'maven_problack';color:#60452d;}
+.offer_rgt figure{margin:0;padding:0 0 17px 0;}
+.offer_rgt figure img{margin:0;padding:0;}
+.offer_rgt h4                                {margin:0 0 16px 0;padding:0 10px 10px 10px;font-family: 'maven_promedium';font-size:21px;line-height:24px;color:#735b46;font-weight: normal;text-align:center;border-bottom: 1px dotted #999999;}
+.offer_rgt p                                {margin:0 0 0px 0;padding:0 0 17px 0;font-family: 'maven_promedium';font-size:16px;line-height:22px;color:#333333;font-weight: normal;}
+
+
+
+.cele										{margin:0; padding:45px 0 33px 0; background:#ffffff;}
+.cele_in									{margin:0 auto; padding:0;width:100%;display:block;}	
+.cele ul									{display:inline-block;width:100%;}
+.cele ul li									{width:100%;padding:0 0px 0 0;}
+.cele_blk									{margin:0px; padding:0 0 24px 0;width:100%;display:inline-block;text-align:center;border-bottom:6px solid #b5a969;}
+.cele_cnt 									{margin:0;padding:0px 25px 0 25px;text-align:center; width:100%;min-height: 157px;}
+.cele_cnt span 								{margin:0 0 1px 0;padding:0;display:block;font-family: 'maven_promedium';font-size:11px;line-height:18px;font-weight:normal;color:#8b8b8b;font-weight: 300;}
+.cele_cnt p 								{margin:0 0 0px 0;padding:0 25px 17px 25px;font-family: 'maven_promedium';font-size:16px;line-height:22px;color:#333333;text-align:left;font-weight: normal;}
+.cele_blk a 								{margin:0 0 0px 0;padding:19px 0 18px 0;font-family: 'maven_problack';font-size:21px;line-height:23px;color:#9b914d;font-weight: normal;border:1px solid #9b914d;display:inline-block;width:72%;}
+.cele .owl-nav{display:none;}
+.cele .owl-dots{text-align:center;margin:42px 0 0 0;}
+.cele .owl-carousel .owl-controls .owl-dot{cursor: pointer;cursor: hand;-webkit-user-select: none;-khtml-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;width: 10px;height: 10px;display: inline-block;background: #b5a969;margin:0 4px;border:1px solid #686868;border-radius:100%;}
+.cele .owl-carousel .owl-controls .owl-dot.active{background:#767b4c;}
+
+
+
+.avail                                      {margin: 0;padding: 0;width: 100%;display: block;background:rgba(255, 255, 255, 0.59);position:absolute;left:0;bottom:0;}
+.avail_in                                   {margin: 0 auto;padding:33px 80px 0px 80px;width:100%;display: block;}
+.avail_in h3                                {margin:0 0 0px 0;padding:0 0 0px 0;font-family: 'maven_promedium';font-size:55px;line-height:62px;color:#ffffff;font-weight: normal;text-align: center;position: relative;}
+.avail_in p:after                           {content: '';position: absolute;left: 0;right: 0;text-align: center;bottom: -3px;background:url(../images/border-design1.png) no-repeat; width: 100px;height: 16px;margin: 0 auto;}
+.avail_in p                                 {margin:0 0 45px 0;padding:0 0 19px 0;font-family: 'maven_promedium';font-size:14px;line-height:30px;font-weight:300;color: #ffffff;text-align:center;position: relative;}
+.contact					                {margin:0px auto 0;padding:0;}
+.contact span					            {margin:0 46px 0 0;padding:0;display:inline-block;vertical-align:middle;}
+.contact span .fa					        {color:#3f451e;font-size:37px;line-height:37px;}
+.contact ul				                    {margin:0;padding:0 0 30px 0;display:inline-block;width:91%}
+.contact > ul > li			                {margin:0 52px 0px 0;padding:0;width:27%;display:inline-block;vertical-align:middle;position:relative;}
+.contact > ul > li.dp:after {
+    font-family: FontAwesome;
+    content: "\f107";
+    position: absolute;
+    right: 0;
+    top: 0;
+    right: 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: #434925;
+    display: block;
+    width:22%;
+    text-align: center;
+    height: 100%;
+    border-left: 1px solid #3f451e;
+}
+
+.contact > ul > li.sub_btn			        {margin:0 ;padding:0 0 0 13px;width:34%;display:inline-block;}
+.contact ul li > .text		                {margin:0;padding:7px 16px 8px 16px;width:100%;font-family: 'maven_promedium';font-size:16px;font-weight:100;color:#999999;line-height:20px;text-align:left;border:1px solid #f8f5f4;outline:none;border-radius:0px;background:#fff;height:60px;border:1px solid #8c9169;}
+.button	                                    {margin:0 auto;padding:16px 0 12px 0;width:100%;font-family: 'maven_promedium';font-size:18px;font-weight:100;color:#ffffff;line-height:20px;text-align:center;display: block;background:#3f451e;cursor:pointer;border:none;outline:none;transition:all ease-in-out 0.5s; -moz-transition:all ease-in-out 0.5s; -ms-transition:all ease-in-out 0.5s; -o-transition:all ease-in-out 0.5s; -webkit-transition:all ease-in-out 0.5s;height:60px;}
+.button:hover			                    {box-shadow:inset 0 0 5px 45px #ffffff;color:#7fa023;}
+
+
+
+.harris                                      {margin: 0;padding: 0;width: 100%;display: block;position: relative;background:url(../images/harris_bg.jpg) no-repeat;background-size:cover;}
+.harris_in                                   {margin: 0;padding:0px 30px 60px 30px;width: 100%;display: block;}
+.harris_in > p                                {margin:0 0 0px 0;padding:0 0 0px 0;font-family: 'maven_proregular';font-size:18px;line-height:22px;color:#fff;font-weight: normal;float:right;}
+.harris_lft                             {margin: 0;padding:58px 0 35px 0;text-align:left;}
+.harris_lft h3                                {margin:0 0 0px 0;padding:0 0 39px 0;font-family: 'maven_proregular';font-size:36px;line-height:50px;color:#666666;font-weight: normal;position: relative;}
+.harris_lft h3 span                               {font-family: 'maven_problack';color:#b4a968;}
+.harris_blk{margin:0;padding:0;}
+.harris_blk_lft{margin:0;padding:0;width:65%;float:left;display:inline-block;}
+.harris_blk_lft img{width:100%;height:auto;}
+.harris_blk_lft figure{margin:0;padding:0;}
+.harris_blk_lft figure img{margin:0;padding:0;}
+
+.harris_blk_rgt{margin:0;padding:0;width:27%;float:left;display:inline-block;}
+.harris_blk_rgt_in{margin:24px 0 32px 0;padding:22px 30px 89px 27px;background:#fff;border:1px solid #fff;}
+.harris_blk_rgt h4                                {margin:0 0 8px 0;padding:0 0 6px 0;font-family: 'maven_probold';font-size:14px;line-height:20px;color:#61452e;font-weight: normal;position: relative;text-align:center;border-bottom:1px dotted #999999;}
+.harris_blk_rgt p                                {margin:0 0 0px 0;padding:0 0 17px 0;font-family: 'maven_proregular';font-size:16px;line-height:22px;color:#333333;font-weight: normal;position: relative;}
+.harris_blk_rgt a p                               {margin:0 auto;padding:26px 0 15px 0;width:75%;font-family: 'maven_promedium';font-size:27px;font-weight:100;color:#ffffff;line-height:20px;text-align:center;display: block;background:#b5a969;cursor:pointer;width:100%;}
+.harris_blk_rgt a p{display:inline-block;width:75%;float:left;}
+.harris_blk_rgt a p em{font-size:15px;display:block;}                                {}
+.harris_blk_rgt a span{font-size:15px;display:inline-block;width:25%;float:left;font-size:25px;line-height:29px;color:#fff;background:#a49751;text-align:center;height:81px;line-height:81px;}
+
+
+
+
+
+
+.plan                              {margin:0;padding:0 0 0 0;}
+.plan_in                          {margin:0;padding:0;display:block;}
+.plan_in_lft                           {margin:0;padding:0;display:block;float:left; position:relative;z-index:0;width:74%;}
+.plan_in_lft h2                           {margin:0;padding:45px 0 31px 0;display:block;font-family: 'maven_proregular';font-size:41px;line-height:44px;color:#666666;text-transform:uppercase;text-transform: uppercase;background:#fff;position:absolute;left:0;top:0;width:80%;text-align:center;}
+.plan_in_lft img                       {margin:0;padding:0;display:block;width:100%;height:auto;}
+.plan_in_lft_txt                             {margin:0 auto;padding:23px 22px 18px 22px;display:block;position:absolute; top:50%;left:21%;background:rgba(255, 255, 255, 0.8);width:350px;text-align:center;margin-top:-175px;}
+.plan_in_lft_txt h4                           {margin:0 0 20px 0;padding:0 0 13px 0;display:block;font-family: 'maven_probold';font-size:26px;line-height:30px;color:#666666;text-transform:uppercase;text-transform: uppercase;border-bottom:1px dotted #999999;}
+.plan_in_lft_txt p                           {margin: 0;padding:0 0 30px 0;display:inline-block;font-family: 'maven_proregular';font-size:16px;line-height:22px;color:#333333;text-align:left;}
+.plan_in_lft_txt a                           {margin: 0 0 0px 0;padding:17px 14px 16px 14px;display:inline-block;font-family: 'maven_probold';font-size:21px;line-height:23px;color:#666666;text-transform:uppercase;text-decoration:none;letter-spacing:0.8px;background: #ffffff;text-transform: uppercase;border:1px solid #666666;width:85%;}
+
+.plan_in_lft_txt a.box1                      {margin:0 26px 8px 0;}
+.plan_in_rgt_txt                             {margin:0 auto;padding:0;display:block;position:absolute; bottom:0;left:25%;right: 0;}
+.plan_in_rgt_txt                             {margin:0 auto;padding:23px 22px 18px 22px;display:block;position:absolute; bottom:35px;right:17%;background:rgba(255, 255, 255, 0.8);width:350px;text-align:center;margin-top:-125px;}
+.plan_in_rgt_txt h4                           {margin:0 0 20px 0;padding:0 0 13px 0;display:block;font-family: 'maven_probold';font-size:26px;line-height:30px;color:#666666;text-transform:uppercase;text-transform: uppercase;border-bottom:1px dotted #999999;}
+.plan_in_rgt_txt p                           {margin: 0;padding:0 0 30px 0;display:inline-block;font-family: 'maven_proregular';font-size:16px;line-height:22px;color:#333333;text-align:left;}
+.plan_in_rgt_txt a                           {margin: 0 0 0px 0;padding:17px 14px 16px 14px;display:inline-block;font-family: 'maven_probold';font-size:21px;line-height:23px;color:#666666;text-transform:uppercase;text-decoration:none;letter-spacing:0.8px;background: #ffffff;text-transform: uppercase;border:1px solid #666666;width:85%;}
+.plan_in_rgt                           {margin:0;padding:0;display:block;float:right; position:absolute;top:0;right:0;width:56.6%;}
+.plan_in_rgt img                       {margin:0;padding:0;display:block;float:right;width:100%;height:auto;}
+.lft_img1, .rt_img1                         {display:none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.creek                                   {margin: 0;padding: 0;width: 100%;display: block;}
+.creek_in                                {margin: 0;padding:27px 0 0 0;width: 100%;display: block;}
+.creek_in h3                                {margin:0 0 0px 0;padding:0 0 24px 0;font-family: 'maven_proregular';font-size:36px;line-height:50px;color:#666666;font-weight: normal;position: relative;text-align:center;}
+.creek_in h3 span                               {font-family: 'maven_problack';color:#b4a968;}
+
+.creek_blk{margin:0;padding:0;position:relative;}
+.creek_in ul                             {margin: 0;padding: 0;}
+.creek_in ul li                          {margin:0 0 0px 0;padding:0px;display: inline-block;float: left;position: relative;width:20%;}
+.gal_cnt                                    {position: absolute;width: 100%;height: 100%;margin: 0;padding: 0;left: 0;top: 0;background:rgba(0, 0, 0, 0.67);display: none;}
+.gal_blk                                    {margin: 0;padding: 0;position: relative;}
+.gal_cnt1                                   {width: 100%;height: 100%;display:table;}
+.gal_cnt2                                   {width: 100%;height: 100%;display:table-cell;text-align: center;padding:25px 25px 25px 25px;}
+.creek_in > ul > li > .creek_blk > img     {width: 100%;height: auto;}
+.creek_in ul li:hover .gal_cnt           {display: block;}
+
+.gal_cnt2 h4                                   {margin:0 0 44px 0;padding:15px 0 15px 58px;font-family:Arial, Helvetica, sans-serif;font-size:16px;line-height:16px;font-weight:700;color:#fff;text-align:left;background:url(../images/har.png) no-repeat left center;}
+.gal_cnt2 h4 span                              {margin:0;padding:0;font-size:14px;line-height:16px;font-weight:400;}
+.gal_cnt2 p                                   {margin:0;padding:0;font-family:Arial, Helvetica, sans-serif;font-size:14px;line-height:20px;font-weight:400;color:#fff;text-align:center;}
+
+.special                                    {display: block; padding: 2px 0; text-align: center;}
+.special_in                                 {border-top: 1px solid #b5a969; border-bottom: 1px solid #b5a969; padding: 20px 0;}
+.special ul                                 {display: block;}
+.special ul li                              {display: inline-block; padding: 10px 0;}
+.special ul li a                             {font-size: 16px; line-height: 18px; color: #76794c; padding: 0 5px; font-family: 'maven_proregular'; font-weight: 300;}
+
+footer                                     {display: block; padding: 0 0;}
+.footer_top                                {display: block; padding: 50px 0 30px; background: #3f451e;}
+.footer_top_in                             {display: block; padding: 0 10px;}
+.footer_top_lft                            {width: 33%; display: inline-block; padding: 0px; float: left;}
+.footer_top_lft h3                         {font-size: 18px; line-height: 20px; color: #999999; font-family: 'maven_proregular'; font-weight: 300; padding: 0 0 20px;}
+.footer_top_lft h3 span                     {color: #fff;}
+.search					{width:100%; display:block;background:none; padding:0; margin:0;}
+.text										{width:80%;float:left;display:inline-block;background:#fffbf5;outline:none;border:none;padding:0;font-family: 'maven_proregular';font-size:18px;line-height:20px;font-weight:400;color:#999999;padding:25px 25px;background:#fff;border-radius:0px;height:56px; margin: 0;}
+.button1									{width:68px;height:56px; display:inline-block;border:none;background:#fff; outline:none;color:#fff; position: relative;border-left:1px solid #434925;}
+.button1:after                {font-family: FontAwesome;content: "\f105"; position: absolute; left: 0; top: 0; right: 0; font-size: 40px; font-weight: bold; color: #434925; display: block; width: 100%;}
+
+.footer_top_mdl                {display: inline-block; float: left; padding: 0 50px;}
+.footer_top_mdl h3             {font-size: 18px; line-height: 20px; color: #999999; font-family: 'maven_proregular'; font-weight: 300; padding: 0 0 20px; text-align: center;}
+.footer_top_mdl h3 span                     {color: #fff;}
+.social_links                   {display: block; padding: 0; text-align: center;}
+.social_links ul                {display: block;}
+.social_links ul li             {display: inline-block; padding: 0 5px; }
+.social_links ul li a           {display: inline-block; background: #343818; padding: 15px 20px; border: 1px solid #9cb030; color: #fff;}
+.social_links ul li a .fa        {font-size: 25px; }
+
+.footer_top_rgt                 {display: inline-block; float: right; padding: 0 0px; text-align: center;}
+.footer_top_rgt_in              {display: block; padding: 0;}
+.footer_top_rgt_in span         {display: block; padding: 0 0 20px;}
+.footer_top_rgt_in span a       {display: inline-block;}
+.footer_top_rgt_in span img     {display: inline-block; max-width: 100%; height: auto;}
+.footer_top_rgt_in ul           {display: block;}
+.footer_top_rgt_in ul li        {display: inline-block; padding: 0 20px 0; border-right: 1px dotted #687329;}
+.footer_top_rgt_in ul li a      {display: inline-block;}
+.footer_top_rgt_in ul li a img  {display: inline-block; max-width: 100%; height: auto;}
+
+.footer_mdl                    {display: block; padding: 0; text-align: center;}
+.footer_mdl_in                 {display: block; padding: 30px 0;}
+.footer_mdl_in ul              {display: block;}
+.footer_mdl_in ul li           {display: inline-block;  padding: 0 50px; border-right: 1px dotted #ccc;}
+.footer_mdl_in ul li img       {display: inline-block; max-width: 100%; height: auto;}
+
+.foot_down                     {display: block; padding: 10px 0; border-top: 1px solid #b5a969; text-align: center;}
+.foot_down p                   {display: block; font-size: 15px; line-height: 17px; color: #333333; padding: 0 0 10px; font-family: 'maven_proregular'; font-weight: 300px;}
+.foot_down ul                  {display: block;}
+.foot_down ul li               {display: inline-block; padding: 0 5px; border-right: 1px solid #7a7a7a;}
+.foot_down ul li a             {display: inline-block; font-size: 15px; line-height: 17px; color: #76794c; font-family: 'maven_proregular'; font-weight: bold;}
+
+.dp{position: relative;}
+.ui-datepicker-trigger                      {margin:9px;}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{text-align:center;}
+.date_pic                                   {position: relative;right: 0;display: block;height: 0;z-index: 99999;}
+.date_pic .ui-widget.ui-widget-content ,.date_pic4 .ui-widget.ui-widget-content ,.date_pic5 .ui-widget.ui-widget-content     {top: 0 !important;left:88px !important; }
+.date_pic1 .ui-widget.ui-widget-content ,.date_pic2 .ui-widget.ui-widget-content ,.date_pic3 .ui-widget.ui-widget-content    {top: 0 !important;left:88px !important; }  
+.dop .date_pic                              {height: auto; }
+.ui-datepicker-trigger                      {cursor:pointer; position:absolute;right:1px;top:0px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#back{position:fixed; bottom:35px;right:15px; color:green; font-size:50px; z-index:9999;display:none;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
+#nav-icon 								   {width:28px; height:18px; position:relative; margin:0px auto; -webkit-transform:rotate(0deg); -moz-transform:rotate(0deg); -o-transform:rotate(0deg); transform:rotate(0deg);  -webkit-transition:.5s ease-in-out;  -moz-transition:.5s ease-in-out;  -o-transition:.5s ease-in-out;  transition:.5s ease-in-out;  cursor: pointer; display: inline-block;}
+#nav-icon span 							   {display: block;  position: absolute;  height:2px;  width: 100%;  background:#999f64;  border-radius: 0px;  opacity: 1;  left: 0;  -webkit-transform: rotate(0deg);  -moz-transform: rotate(0deg);  -o-transform: rotate(0deg);  transform: rotate(0deg);  -webkit-transition: .25s ease-in-out;  -moz-transition: .25s ease-in-out;  -o-transition: .25s ease-in-out;  transition: .25s ease-in-out; }
+#nav-icon span:nth-child(1)					{top:0px;}
+#nav-icon span:nth-child(2) 				{top:7px;}
+#nav-icon span:nth-child(3)					{top:14px;}
+.open #nav-icon span:nth-child(1) 			{top:9px; -webkit-transform:rotate(135deg);  -moz-transform:rotate(135deg); -o-transform:rotate(135deg); transform:rotate(135deg);}
+.open #nav-icon span:nth-child(2)	    	{opacity:0; left:-60px;}
+.open #nav-icon span:nth-child(3) 			{top:9px; transform: rotate(-135deg); -moz-transform:rotate(-135deg); -ms-transform:rotate(-135deg); -o-transform:rotate(-135deg); -webkit-transform:rotate(-135deg);}
+.side_bar                                   {display:none; }
+.contorl_in{position: absolute;bottom:34px;right: 92px;width:62px;}
+.story #back{display:block;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
+.nav-tabs > li > a:hover {border-color:transparent;background:none;}
+
+
+/* ------------ Fancybox -------------- */
+
